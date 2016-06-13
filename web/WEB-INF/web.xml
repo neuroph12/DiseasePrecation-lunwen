@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>getPage</servlet-name>
+        <servlet-class>pageServelt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getPage</servlet-name>
+        <url-pattern>/getPage</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>Predict</servlet-name>
+        <servlet-class>predictSevelt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Predict</servlet-name>
+        <url-pattern>/Predict</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Userinfo</servlet-name>
+        <servlet-class>userprofileSevelt</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Userinfo</servlet-name>
+        <url-pattern>/userinfo</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>HelloWorld</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+</web-app>

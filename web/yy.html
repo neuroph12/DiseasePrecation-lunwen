@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blue Moon - Responsive Admin Dashboard</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blue Moon - Responsive Admin Dashboard"/>
+    <meta name="keywords"
+          content="Notifications, Admin, Dashboard, Bootstrap3, Sass, transform, CSS3, HTML5, Web design, UI Design, Responsive Dashboard, Responsive Admin, Admin Theme, Best Admin UI, Bootstrap Theme, Wrapbootstrap, Bootstrap, bootstrap.gallery"/>
+    <meta name="author" content="Bootstrap Gallery"/>
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/new.css" rel="stylesheet">
+    <link href="css/charts-graphs.css" rel="stylesheet">
+    <!-- Datepicker CSS -->
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css">
+
+    <link href="fonts/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!-- Header Start -->
+<header>
+    <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="Logo"/>
+    </a>
+</header>
+<!-- Header End -->
+
+<!-- Main Container start -->
+<div class="dashboard-container">
+
+    <div class="container">
+        <!-- Top Nav Start -->
+        <div id='cssmenu'>
+            <ul>
+                <li class='active'>
+                    <a href='#'>
+                        <i class="fa fa-dashboard"></i>
+                        毕设演示
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Top Nav End -->
+
+        <!-- Sub Nav End -->
+        <div class="sub-nav hidden-sm hidden-xs">
+            <ul>
+                <li class="hidden-sm hidden-xs">
+                    <a href="xl.html" class="">训练神经网络</a>
+                </li>
+                <li class="hidden-sm hidden-xs">
+                    <a href="cs.html" class="">测试神经网络</a>
+                </li>
+                <li class="hidden-sm hidden-xs">
+                    <a href="#" class="selected">应用神经网络</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Sub Nav End -->
+
+        <!-- Dashboard Wrapper Start -->
+        <div class="dashboard-wrapper-lg">
+            <!-- Row Start -->
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="title">
+                                应用神经网络
+                            </div>
+                    <span class="tools">
+                      <i class="fa fa-cogs"></i>
+                    </span>
+                        </div>
+                        <div class="widget-body">
+                            <form class="form-horizontal row-border" method="post" action="#">
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-2">
+                                        <div class="wrapper">
+                                            <input class="btn btn-block btn-warning" type="file" name="file1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">age</label>
+                                    <div class="col-md-10">
+                                        <input type="number"  class="form-control" name="age">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">sex</label>
+                                    <div class="col-md-10">
+                                        <div class="btn-group" data-toggle="buttons">
+                                            <label class="btn btn-success">
+                                                <input type="radio" name="sex" > 男
+                                            </label>
+                                            <label class="btn btn-success">
+                                                <input type="radio" name="sex" > 女
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">cp</label>
+                                    <div class="col-md-10">
+                                        <input type="text"  class="form-control" name="cp">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">trestbps</label>
+                                    <div class="col-md-10">
+                                        <input type="text"  class="form-control" name="trestbps">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">chol</label>
+                                    <div class="col-md-10">
+                                        <input type="text"  class="form-control" name="chol">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">fbs</label>
+                                    <div class="col-md-10">
+                                        <div class="btn-group" data-toggle="buttons">
+                                            <label class="btn btn-success">
+                                                <input type="radio" name="fbs"> 是
+                                            </label>
+                                            <label class="btn btn-success">
+                                                <input type="radio" name="fbs"> 否
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">restecg</label>
+                                    <div class="col-md-10">
+                                        <input type="text"  class="form-control" name="restecg">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">exang</label>
+                                    <div class="col-md-10">
+                                        <div class="btn-group" data-toggle="buttons">
+                                            <label class="btn btn-success">
+                                                <input type="radio" name="exang"> 是
+                                            </label>
+                                            <label class="btn btn-success">
+                                                <input type="radio" name="exang"> 否
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">oldpeak</label>
+                                    <div class="col-md-10">
+                                        <input type="text"  class="form-control" name="oldpeak">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">slope</label>
+                                    <div class="col-md-10">
+                                        <input type="text"  class="form-control" name="slope">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">ca</label>
+                                    <div class="col-md-10">
+                                        <input type="text"  class="form-control" name="ca">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">thal</label>
+                                    <div class="col-md-10">
+                                        <input type="text"  class="form-control" name="thal">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-2">
+                                        <div class="wrapper">
+                                            <button class="btn btn-block btn-info" type="submit">
+                                                预测
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row End -->
+        </div>
+        <!-- Dashboard Wrapper End -->
+
+        <footer>
+            <p>© SunMing 2016</p>
+        </footer>
+
+    </div>
+</div>
+<!-- Main Container end -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+
+<script type="text/javascript">
+</script>
+
+</body>
+</html>
